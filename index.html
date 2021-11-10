@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Reto 2</title>
+    <meta http-equiva="Access -Control - Allov-Origin"content="*">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+
+</head>
+<body>
+<h1> Tool!!!</h1>
+<div  id ="resultadotool">
+</div>
+<button onclick = "traerInformaciontool()" > Consultar</button>	
+
+    <input type="number" id="idtool" placeholder="id">
+    <input type="text" id="brand" placeholder="brand">
+    <input type="text" id="model" placeholder="model">
+    <input type="number" id="category_id" placeholder="category_id">
+    <input type="text" id="name" placeholder="name">
+
+
+<button onclick="guardarInformaciontool()">Guardar!</button>
+<button onclick="editarInformaciontool()">Actualizar!</button>
+
+
+<h1> client</h1>
+<div  id ="resultadoclient"></div>
+<button onclick = "traerInformacionclient ()" > Consultar</button>	
+
+    <input type="text" id="idclient" placeholder="id">
+    <input type="text" id="nameclient" placeholder="name">
+    <input type="text" id="email" placeholder="email">
+    <input type="number" id="age" placeholder="age">
+
+<button onclick="guardarInformacionclient()">Guardar!</button>
+<button onclick="editarInformacionclient()">Actualizar!</button>
+
+
+
+
+<h1> message</h1>
+<div  id ="resultadomessage"></div>
+<button onclick = "traerInformacionmessage ()" > Consultar</button>	
+
+<div>
+    <input type="number" id="idmessage" placeholder="id">
+    <input type="text" id="messagetext" placeholder="messagetext">
+   
+
+<button onclick="guardarInformacionmessage()">Guardar!</button>
+<button onclick="editarInformacionmessage()">Actualizar!</button>
+
+</div>
+
+</body>
+
+</html>
